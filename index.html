@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>My Health Record</title>
+</head>
+<body>
+<header>
+<h1>Ellen's Health Record</h1>
+<nav>
+<ul>
+<li><a href="#Profile">Profile</a></li>
+<li><a href="#Conditions">Conditions</a></li>
+<li><a href="#Medications">Medications</a></li>
+<li><a href="#Reports">Reports</a></li>
+<li><a href="#FAQ">FAQ</a></li>
+<li><a href="#Contact">Contact</a></li>
+</ul>
+</nav>
+</header>
+
+<main>
+<section id="Profile">
+<h2>Ellen's Profile</h2>
+<figure>
+<img src="01.webp" alt="Ellen's Photo" width="160px" height="160px">
+<figcaption>My Photo</figcaption>
+<dl>
+<dt>Name</dt>
+<dd>Ellen Nixon</dd>
+<dt>Blood Group</dt>
+<dd>O<sup>+</sup></dd>
+<dt>Allergies</dt>
+<dd>Dust, Combiflam</dd>
+<dt>Emergency Contact</dt>
+<dd>+91-9871xxxxxx</dd>
+</dl>
+</figure>
+</section>
+
+<section id="Conditions">
+<h2>Conditions</h2>
+<article>
+<h3>Seasonal Allergic Rhinitis</h3>
+<p><strong>Status : </strong> under Treatment</p>
+<p><mark>Suppliment</mark> : 2000 IU daily</p>
+</article>
+</section>
+
+<section id="Medications">
+<h2>Medications</h2>
+<table border=1px solid black>
+<caption>current Medication schedule</caption>
+<thead>
+<tr>
+<th>Medicine</th>
+<th>Dosage</th>
+<th>Frequency</th>
+<th>Notes</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Cetirizine</td>
+<td>10mg</td>
+<td>Once at Night</td>
+<td><small>PRN during allergy season</small></td>
+</tr>
+<tr>
+<td>Vitamin D3</td>
+<td>2000 IU</td>
+<td>Daily</td>
+<td>After Meals</td>
+</tr>
+</tbody>
+<tfoot>
+<tr><td colspan="4"><strong>Total Medicine : </strong> 2</td></tr>
+</tfoot>
+</table>
+</section>
+
+<section id="Reports">
+<figure>
+<img src="02.webp" alt="Lab Report" width="300px">
+<figcaption>Blood Report</figcaption>
+</figure>
+</section>
+
+<aside>
+<details>
+<summary>Privacy Notice</summary>
+<p>Your data is stored in this portal Share with caution.</p>
+</details>
+</aside>
+
+<section id="FAQ">
+<h2>Frequently Asked Questions</h2>
+<details>
+<summary>How to update medicine list?</summary>
+<p>Edit the table rows under “Medications”.</p>
+</details>
+<details>
+<summary>What to do in emergency?</summary>
+<p>Show the profile section to Doctor</p>
+</details>
+</section>
+
+<section id="Contact">
+<h2>Doctor Contact</h2>
+<form>
+<fieldset>
+<legend>Send Note</legend>
+<label>Subject: <input type="text" required></label><br>
+<label>To Doctor:
+<select>
+<optgroup label="Allergy">
+<option>Dr. Mina</option>
+</optgroup>
+<optgroup label="General">
+<option>Dr. Babu</option>
+</optgroup>
+</select>
+</label><br>
+<label>Message:</label><br>
+<textarea rows="4" cols="40"></textarea><br>
+<button type="submit">Send</button>
+</fieldset>
+</form>
+</section>
+
+<footer>
+<p><small>&copy; Ellen's Health Report</small></p>
+</footer>
+</main>
+</body>
+</html>
