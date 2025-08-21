@@ -10,4 +10,4 @@
 Download or clone the repository, then open `index.html` in your browser.  
 
 ## Live Demo
-[View on GitHub Pages](https://ellennixon.github.io/Project_one/)
+[Click Here](https://ellennixon.github.io/Project_one/)
